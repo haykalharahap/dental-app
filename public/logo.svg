@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 100" fill="none">
+  <!-- Tooth shape integrated as the "o" -->
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0891b2"/>
+      <stop offset="100%" style="stop-color:#0e7490"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- "dent" text -->
+  <text x="10" y="58" font-family="'Outfit', 'Inter', sans-serif" font-size="48" font-weight="700" fill="url(#grad)">dent</text>
+  
+  <!-- Tooth icon (replacing "o") -->
+  <g transform="translate(155, 8)">
+    <!-- Main tooth shape -->
+    <path d="M25 5 C18 5, 10 12, 10 22 C10 32, 14 38, 17 48 C18 52, 20 54, 22 54 C24 54, 25 50, 25 46 C25 50, 26 54, 28 54 C30 54, 32 52, 33 48 C36 38, 40 32, 40 22 C40 12, 32 5, 25 5Z" 
+          fill="url(#grad)" stroke="url(#grad)" stroke-width="1"/>
+    <!-- Inner curve detail -->
+    <path d="M20 18 C22 14, 28 14, 30 18" stroke="white" stroke-width="1.5" fill="none" opacity="0.5"/>
+    <!-- Smile curve on tooth -->
+    <path d="M16 28 C20 32, 30 32, 34 28" stroke="url(#grad)" stroke-width="1.5" fill="none" opacity="0.6"/>
+  </g>
+  
+  <!-- "ms" text -->
+  <text x="200" y="58" font-family="'Outfit', 'Inter', sans-serif" font-size="48" font-weight="700" fill="url(#grad)">ms</text>
+  
+  <!-- "DENTAL CARE" subtitle -->
+  <text x="68" y="82" font-family="'Inter', sans-serif" font-size="16" font-weight="500" letter-spacing="6" fill="url(#grad)">DENTAL CARE</text>
+</svg>
